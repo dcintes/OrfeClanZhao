@@ -1,0 +1,29 @@
+.chinese {
+  font-family: $primary-font;
+}
+
+.text-border {
+  text-shadow: 2px 2px 0 $grey, -2px -2px 0 $grey;
+}
+
+.list-circle {
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.blog-image-bg {
+  background-image: url("../images/Chinese_Theater.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.image-cover {
+  height: 100%;
+  object-fit: cover;
+}

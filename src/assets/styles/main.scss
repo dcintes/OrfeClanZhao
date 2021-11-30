@@ -15,15 +15,24 @@
  * see commented examples below
  */
 
-// @import "some-node-module";
-// @import "@some-company/some-node-module";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Shojumaru&display=swap");
 
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
 
-@import "layouts/home";
+@import "layouts/base";
+
+@import "layouts/utils";
+
+@import "layouts/poster";
+
+@import "layouts/reticula";
+
+@import "layouts/gallery";
 
 /**
  * Do NOT include anything else in this file!

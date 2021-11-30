@@ -1,0 +1,21 @@
+.reticula {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reticula__element {
+  margin: 1em;
+  width: calc(33.33% - 2em);
+}
+
+@include media-breakpoint-down(lg) {
+  .reticula__element {
+    width: calc(50% - 2em);
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .reticula__element {
+    width: calc(100% - 2em);
+  }
+}
